@@ -1,14 +1,76 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('fonts/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('fonts/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 0;
     background-color: #1B244A;
 }
 
-.container {
+.container, .result, .add-number {
     display: flex;
     justify-content: space-around;
 }
 
 h3 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 3em;
+}
+
+.result p {
+    font-size: 6em;
+    color: #F94F6D;
+    font-family: cursed_timer_ulilregular;
+}
+
+.result > div {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+}
+
+.add-number {
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;;
+}
+
+button.add-btn {
+    display: inline;
+    border: solid 1px #fff;
+    padding: 20px 10px 0 10px;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    text-align: center;
+    font-family: cursed_timer_ulilregular;
+    background-color: #1B244A;
+    color: #fff;
+    font-size: 1em;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+}
+
+.reset {
+    width: 100%;
+    text-align: center;
+}
+
+.reset-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin: 50px auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: solid 1px white;
 }
