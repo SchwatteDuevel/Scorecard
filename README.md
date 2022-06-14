@@ -1,2 +1,2 @@
 # Scorecard
- Basketball Scorecard um JavaScript zu lernen.
+ Basketball Scorecard to learn JavaScript.
