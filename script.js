@@ -1,25 +1,22 @@
 const resultHome = document.getElementById("home");
 const resultGuest = document.getElementById("guest");
 let count = 0;
+let countHome = 0;
+let countGuest = 0;
 
-function addOne() {
-    count += 1;
-    resultHome.textContent = count; 
+function addHome(points) {
+    countHome += points;
+    resultHome.textContent = countHome; 
 }
 
-function addTwo() {
-    count += 2;
-    resultHome.textContent = count; 
+function addGuest(points) {
+    countGuest += points;
+    resultGuest.textContent = countGuest; 
 }
-
-function addThree() {
-    count += 3;
-    resultHome.textContent = count; 
-}
-
 
 function reset() {
-    count = 0;
+    countHome = 0;
+    countGuest = 0;
     resultHome.textContent = 0;
     resultGuest.textContent = 0;
 }
