@@ -7,9 +7,16 @@
 
 }
 
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+
 body {
-    margin: 0;
     background-color: #1B244A;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .container, .result, .add-number {
@@ -26,24 +33,14 @@ h3 {
     font-size: 6em;
     color: #F94F6D;
     font-family: cursed_timer_ulilregular;
-}
-
-.highlight-home,
-.highlight-guest {
     background-color: black;
     width: 250px;
     height: 250px;
     text-align: center;
+    padding-top: 90px;
 }
 
-.add-number {
-    color: white;
-    font-size: 2em;
-    margin-top: 20px;;
-}
-
-button.add-btn {
-    display: inline;
+.add-btn {
     border: solid 1px #fff;
     padding: 20px 10px 0 10px;
     border-radius: 5px;
@@ -54,23 +51,25 @@ button.add-btn {
     font-family: cursed_timer_ulilregular;
     background-color: #1B244A;
     color: #fff;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .add-btn:hover {
     cursor: pointer;
 }
 
+div > p.highlight {
+    background-color: green;
+}
+
 .reset {
-    width: 100%;
     text-align: center;
 }
 
 .reset-btn {
-    background-color: #fff;
-    color: #000;
+    color: #1b244a;
     padding: 10px;
-    margin: 50px auto;
+    margin: 30px auto;
     text-transform: uppercase;
     border-radius: 5px;
     border: solid 1px white;
