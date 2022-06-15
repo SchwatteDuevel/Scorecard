@@ -43,7 +43,7 @@ h3 {
 }
 
 button.add-btn {
-    display: inline;
+    display: inline-block;
     border: solid 1px #fff;
     padding: 20px 10px 0 10px;
     border-radius: 5px;
