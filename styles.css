@@ -28,10 +28,11 @@ h3 {
     font-family: cursed_timer_ulilregular;
 }
 
-.result > div {
+.highlight-home,
+.highlight-guest {
+    background-color: black;
     width: 250px;
     height: 250px;
-    background-color: black;
     text-align: center;
 }
 
