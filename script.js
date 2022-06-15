@@ -20,3 +20,7 @@ function reset() {
     resultHome.textContent = 0;
     resultGuest.textContent = 0;
 }
+
+function highLightLeader() {
+    
+}
